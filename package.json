@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather application that will utilize data from a weather API and a standalone temperature/humidity sensor. The user will be able to get weather data wherever the sensor is located, at their current location, and for their selected locations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Dobbins",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "express": "^4.13.3",
+    "merge-stream": "^1.0.0",
+    "mongoose": "^4.2.2",
+    "nodemon": "^1.8.0",
+    "plotly": "^1.0.2",
+    "request": "^2.65.0"
+  }
+}
